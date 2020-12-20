@@ -30,7 +30,7 @@
     },
     "Tags":{
         "tag" : "Returns the tag's content\n Format - `>tag <name of the tag>`",
-        "newtag" : "Creates a new tag\n Format - `>newtag <name> <content>\n Names can only be a single word",
+        "newtag" : "Creates a new tag\n Format - `>newtag <name> <content>\n Names can only be a single word`",
         "deltag" : "Deletes a tag\n Format - `>deltag <name>`",
         "taginfo" : "Returns info about the tag\n Format - `>taginfo <name>`"
 
