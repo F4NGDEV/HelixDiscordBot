@@ -1,0 +1,40 @@
+{
+    "Moderation Commands" : {
+
+
+        "announce" : "Announce something.\n Format - `>announce title~~message`",
+        "purge" : "Clears messages in chat. Number of messages has to be mentioned.\n Format - `>purge <Number of messages>`\n  Aliases - `clear`",
+        "warn" : "Warns member. Warning will be sent in DMs.\n Format - `>warn <member> <reason>`",
+        "kick" : "Kicks the specified member.\n Format - `>kick <member mention> <reason(Default = 'Not Provided')>`",
+        "mute" : "Mutes the specified member.\n Format - `>mute <member mention>`",
+        "unmute" : "unmutes the specified member.\n Format - `>unmute <member mention>`",
+        "ban" : "Bans the specified member.\n Format - `>ban <member mention> <reason(Default = 'Not Provided')>`",
+        "unban" : "Unbans the specified user.\n Format - `>unban <member>`\n Member's discriminator should be mentioned"
+
+
+    },
+    "Commands":{
+        "ping" : "Returns the latency",
+        "say" : "Repeats your message.\n Format - `>say <message>`",
+        "avatar" : "Returns the avatar of a user if mentioned else returns the avatar of the command user.\n Format - `>avatar <member_mention>`",
+        "help" : "DMs the help",
+        "newmeet" : "Generates a google meet link and returns it",
+        "suggest" : "Can be used to suggest something. Adds a 👍,👎 reaction to the message",
+        "serverinfo" : "Returns information about the server",
+        "info" : "Returns information about the bot",
+        "userinfo" : "Return information about a specified user\n Format - `>userinfo <member mention>`"
+
+
+
+
+    },
+    "Tags":{
+        "tag" : "Returns the tag's content\n Format - `>tag <name of the tag>`",
+        "newtag" : "Creates a new tag\n Format - `>newtag <name> <content>\n Names can only be a single word",
+        "deltag" : "Deletes a tag\n Format - `>deltag <name>`",
+        "taginfo" : "Returns info about the tag\n Format - `>taginfo <name>`"
+
+
+    }
+
+}   
