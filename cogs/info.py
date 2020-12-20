@@ -78,7 +78,7 @@ class Info(commands.Cog):
        
         info_embed = discord.Embed(title=name,colour=discord.Color.blue())
         info_embed.set_thumbnail(url=ctx.me.avatar_url)
-        info_embed.add_field(name="Creator",value="[Fang](https://www.youtube.com/channel/UCjnf3KoodS1gFb0IXB-jK1A)") #add git link
+        info_embed.add_field(name="Creator",value="[Fang](https://www.youtube.com/channel/UCjnf3KoodS1gFb0IXB-jK1A)")
         info_embed.add_field(name="Source",value="[Github](https://github.com/F4NGDEV/helix)")
         info_embed.add_field(name="Servers",value=str(len(self.client.guilds)))
         info_embed.add_field(name="Uptime",value=uptime)
